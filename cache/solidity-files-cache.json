@@ -1,9 +1,9 @@
 {
   "_format": "hh-sol-cache-2",
   "files": {
-    "/home/moctezuma/Downloads/cool-domains/contracts/Domains.sol": {
-      "lastModificationDate": 1676246490905,
-      "contentHash": "3763a47af5c170e6da46488c7a475fa2",
+    "/home/moctezuma/Downloads/cool-domains-sol/contracts/Domains.sol": {
+      "lastModificationDate": 1676491052352,
+      "contentHash": "d75402a5851d087ffedd087b6fc5f6f8",
       "sourceName": "contracts/Domains.sol",
       "solcConfig": {
         "version": "0.8.10",
@@ -38,7 +38,7 @@
         "Domains"
       ]
     },
-    "/home/moctezuma/Downloads/cool-domains/node_modules/hardhat/console.sol": {
+    "/home/moctezuma/Downloads/cool-domains-sol/node_modules/hardhat/console.sol": {
       "lastModificationDate": 1676242854374,
       "contentHash": "4ff3cd2f6272c9a6516e9ee4f2b967d3",
       "sourceName": "hardhat/console.sol",
