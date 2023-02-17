@@ -2,8 +2,8 @@
   "_format": "hh-sol-cache-2",
   "files": {
     "/home/moctezuma/Downloads/cool-domains-sol/contracts/Domains.sol": {
-      "lastModificationDate": 1676497661517,
-      "contentHash": "f28a3e660deeeb5f1271ffbce06ad430",
+      "lastModificationDate": 1676666693077,
+      "contentHash": "5b5e9c03c09aa7dcea31b58387a2adae",
       "sourceName": "contracts/Domains.sol",
       "solcConfig": {
         "version": "0.8.10",
@@ -29,6 +29,7 @@
         }
       },
       "imports": [
+        "./libraries/StringUtils.sol",
         "hardhat/console.sol"
       ],
       "versionPragmas": [
@@ -71,6 +72,41 @@
       ],
       "artifacts": [
         "console"
+      ]
+    },
+    "/home/moctezuma/Downloads/cool-domains-sol/contracts/libraries/StringUtils.sol": {
+      "lastModificationDate": 1676665102479,
+      "contentHash": "f65e9cdea5860fcb239bcbe9e8ed9cac",
+      "sourceName": "contracts/libraries/StringUtils.sol",
+      "solcConfig": {
+        "version": "0.8.10",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.8.4"
+      ],
+      "artifacts": [
+        "StringUtils"
       ]
     }
   }
