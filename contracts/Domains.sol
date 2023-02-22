@@ -1,5 +1,4 @@
 // SPDX-License-Identifier: UNLICENSED
-
 // We first import some OpenZeppelin Contracts.
 import "@openzeppelin/contracts/token/ERC721/extensions/ERC721URIStorage.sol";
 import "@openzeppelin/contracts/utils/Counters.sol";
@@ -9,6 +8,7 @@ import "hardhat/console.sol";
 
 // We inherit the contract we imported. This means we'll have access
 // to the inherited contract's methods.
+
 contract Domains is ERC721URIStorage {
   // Magic given to us by OpenZeppelin to help us keep track of tokenIds.
   using Counters for Counters.Counter;
@@ -23,7 +23,7 @@ contract Domains is ERC721URIStorage {
   mapping(string => address) public domains;
   mapping(string => string) public records;
 
-  constructor(string memory _tld) payable ERC721("Ninja Name Service", "NNS") {
+  constructor(string memory _tld) payable ERC721("Migue Name Service", "MNS") {
     tld = _tld;
     console.log("%s name service deployed", _tld);
   }
@@ -62,7 +62,7 @@ contract Domains is ERC721URIStorage {
       abi.encodePacked(
         '{"name": "',
         _name,
-        '", "description": "A domain on the Ninja name service", "image": "data:image/svg+xml;base64,',
+        '", "description": "A domain on the migue name service", "image": "data:image/svg+xml;base64,',
         Base64.encode(bytes(finalSvg)),
         '","length":"',
         strLen,

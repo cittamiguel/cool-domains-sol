@@ -2,8 +2,8 @@
   "_format": "hh-sol-cache-2",
   "files": {
     "/home/moctezuma/Downloads/cool-domains-sol/contracts/Domains.sol": {
-      "lastModificationDate": 1677015622977,
-      "contentHash": "d23aa3804fd6ee2c6d7408f4eada8355",
+      "lastModificationDate": 1677095987415,
+      "contentHash": "fac10ef7e9ccfc66ae93dd35db7d26a8",
       "sourceName": "contracts/Domains.sol",
       "solcConfig": {
         "version": "0.8.10",
